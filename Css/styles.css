@@ -1,0 +1,236 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background: linear-gradient(#ffffff, #70daf2) no-repeat center center fixed;
+  background-size: 100% 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px;
+  color: transparent;
+}
+
+img {
+  width: 185px;
+  position: relative;
+  top: 25px;
+}
+
+.remove-bg {
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+
+.material-symbols-outlined:hover {
+  background-color: white;
+  border: 3px solid dodgerblue;
+}
+
+.container {
+  color: #000000;
+  margin-top: 50px;
+  border: 1rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  width: 450px;
+  height: 700px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  margin: 25px;
+  margin-bottom: 45px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.box {
+  margin-top: 0px;
+}
+
+.box label {
+  font-size: 18px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.box input {
+  padding: 15px;
+  width: 340px;
+  margin-left: 40px;
+  border: none;
+  border: 4px solid rgba(147, 95, 224, 0.362);
+  border-radius: 25px;
+  background-color: transparent;
+}
+
+.box input:hover {
+  background-color: #8bc6ec;
+  background-color: #74ebd5;
+  background-color: #74ebd5;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  box-shadow: 3px 3px 3px #555;
+}
+
+i {
+  font-size: 25px;
+  margin-left: 15px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 375px;
+}
+
+.box input:focus {
+  background-color: transparent;
+  border-radius: 25px;
+  border: none;
+}
+
+.box ::placeholder {
+  color: #000000;
+  font-size: 15px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.button {
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.button button {
+  padding: 15px;
+  width: 250px;
+  height: 50px;
+  color: #000000;
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  border: 2px solid rgba(71, 70, 70, 0.3);
+  border-radius: 25px;
+}
+
+button:hover {
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  box-shadow: 3px 2px 2px gray;
+  cursor: pointer;
+}
+
+.check-box {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 25px;
+  background-color: transparent;
+}
+
+.checkbox:hover {
+  font-weight: bold;
+}
+
+.Nmember {
+  text-align: center;
+  margin-top: 85px;
+}
+
+.Nmember:hover {
+  font-weight: bold;
+}
+
+.Nmember a {
+  color: dodgerblue;
+}
+
+.fpassword {
+  float: right;
+  margin-right: 35px;
+  text-decoration: underline;
+}
+
+.fpassword:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.social-media {
+  padding: 25px 0;
+  position: relative;
+  margin: auto;
+}
+
+.social-media .btngoogle {
+  margin-top: 10px;
+  float: left;
+  left: -320px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.social-media .btnfacebook {
+  margin-top: 10px;
+  float: left;
+  left: -220px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.social-media .btninstagram {
+  margin-top: 10px;
+  float: left;
+  left: -120px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.social-media .btnlinkedin {
+  margin-top: 10px;
+  float: left;
+  left: -20px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.btngoogle:hover {
+  background-color: #000000;
+  color: #fd1d1d;
+}
+
+.btnfacebook:hover {
+  background-color: #000000;
+  color: #0a4469;
+}
+
+.btninstagram:hover {
+  background-color: #000000;
+  color: #b93f41;
+}
+
+.btnlinkedin:hover {
+  background-color: #000000;
+  color: #1e90ff;
+}
+
+a {
+  color: black;
+}
