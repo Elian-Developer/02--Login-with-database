@@ -1,7 +1,7 @@
 # Login-Html-Css
 This is a basic login made with Html and Css programming technologies.
 
-Nota: Para Acceder y visualizar el login, puedes copiar y pegar este este acceso directo en tu navegador:
+Note: To access and view this login, you can copy and paste this link in your browser, The link:
 ```
 https://elian-developer.github.io/Login-Html-Css/
 
